@@ -1,4 +1,4 @@
-.navbar {
+/*.navbar {
 	background: #000;
 }
 
@@ -24,8 +24,7 @@ body {
 
 
 /*Осн.стили для всех блоков*/
-
-/*body {
+body {
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -33,8 +32,7 @@ ul, li {
     display: block;
     padding: 0;
     margin: 0;
-}*/
-
+}
 h1, h2, h3, h4, h5 {
     font-weight: 700;
     color: #000
@@ -54,13 +52,11 @@ h2 {
 	padding-bottom: 70px ;
 
 
-}
-/*
 .title_main {
 	font-size: 32px;
 	text-align: center;
 }
-*/
+
 .title_text {
 	font-size: 20px;
     text-align: center;
@@ -157,4 +153,119 @@ p {
 }
 
 
-*/
+/*Экран 3*/
+
+.feedback {
+
+    background:#000;
+    color: #fff;
+}
+
+.blue{
+
+    color:#95d9fb;
+}
+
+.form_input{
+    background:#fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif; 
+    border-radius: 5px;
+    width: 580px;
+    padding: 15px 0;
+    margin-right: 21px;
+    border:0;
+    outline: none;
+
+}
+.title__text {
+    text-align: center;
+}
+
+.button {
+  font-family: 'PT Sans', sans-serif; 
+  background:#e0413b;
+  color: #000;
+  text-transform:  uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 126px;
+  border: 0;
+  padding: 15px 0;
+  cursor: pointer;
+}
+/*
+.footer_info {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+}*/
+
+/* Футер*/
+
+.footer {
+
+background: #000;
+
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right:0;
+        width: 100%;
+    }
+    .button {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom:10px;
+    }
+}
