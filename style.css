@@ -26,7 +26,7 @@ p{
 /* 1 экран */
 
 .header {
-    background-image: url(https://kartinkin.net/uploads/posts/2021-08/1627873471_51-kartinkin-com-p-yaichnaya-lapsha-vok-yeda-krasivo-foto-63.jpg)  ;
+    background-image: url(https://kartinkin.net/uploads/posts/2021-08/1627873471_51-kartinkin-com-p-yaichnaya-lapsha-vok-yeda-krasivo-foto-63.jpg);
     background-repeat: no-repeat;
     background-size: 100% ; 
     padding-bottom: 105px;
@@ -86,12 +86,16 @@ p{
 }  /* анимация при наведении на иконки*/
 
 
-/*.navbar {
+.navbar {
 	background: #000;
 }
 
 .navbar-collapse{
 /*	justify-content: center;*/
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #FFF;
 }
 
 a {
@@ -138,7 +142,7 @@ h2 {
 .title {
 	padding-top: 100px;  /*отступ сверху*/
 	padding-bottom: 70px ;
-
+}
 
 .title_main {
 	font-size: 32px;
@@ -151,20 +155,20 @@ h2 {
 }
 p {
 	font-size: 20px;
-   
+}   
 
 
 /* 1 экран */
 
-.header {
-
-	background-image: url(img/background.jpg)  ;
-	background-repeat: no-repeat;
-	background-size: 100% ; 
-	padding-bottom: 105px;
-}
+/**/
 /*
-.logo {
+.logo {.header {
+
+    background-image: url(img/background.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    padding-bottom: 105px;
+}
     margin-top:8px;
 }
 
@@ -355,4 +359,10 @@ background: #000;
         text-align: center;
         margin-bottom:10px;
     }
+}
+
+#cards {
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614541836_2-p-fon-belii-mramor-2.jpg);
+/*    background-color: yellow;*/
+/*    margin-right: 50px;*/
 }
