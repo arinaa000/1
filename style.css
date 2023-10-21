@@ -20,7 +20,7 @@ h2 {
 }
 
 p{
-
+    color: #D3D3D3;
 }
 
 /* 1 экран */
@@ -58,6 +58,7 @@ p{
 
 .offer_intro {
     font-size: 24px;
+    font-weight: bold;
     line-height: 1.3em;
     color: #000;
 }
@@ -365,4 +366,10 @@ background: #000;
     background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614541836_2-p-fon-belii-mramor-2.jpg);
 /*    background-color: yellow;*/
 /*    margin-right: 50px;*/
+}
+
+.emoji {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
