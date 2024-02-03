@@ -56,8 +56,8 @@
 							<a class="dropdown-item" href="#gedza">Гёдза</a>
 							<a class="dropdown-item" href="#soup">Супы</a>
 							<a class="dropdown-item" href="#saladiki">Салаты</a>
-							<a class="dropdown-item" href="#">Десерты</a>
-							<a class="dropdown-item" href="#">Прохладительные напитки</a>
+							<a class="dropdown-item" href="#desert">Десерты</a>
+							<a class="dropdown-item" href="#holodnien">Прохладительные напитки</a>
 							<a class="dropdown-item" href="#">Горячие напитки</a>
 							<a class="dropdown-item" href="#">Газированные напитки</a>
 						</div>
@@ -82,6 +82,7 @@
 		</nav>
 
 		<header id="header" class="header">
+			<div class="overlay"></div>
 			<div class="container"> 
 				<div class="row">
 					 <div class="col-lg-6">
@@ -93,7 +94,7 @@
 	                    <div class="offer_intro">
 	                    	Выбери свой фаворит❤️‍🔥
 	                    </div> 
-	                     <p class="offer__text">
+	                     <p class="offer__text" id="header_text">
 	                        Коробочки WOK уже успели стать любимцами постоянных клиентов. Они подойдут для разнообразия азиатской кухни, ведь благодаря различным добавкам и ингредиентам лапша и рис могут получить новый вкусовой оттенок, расширяя знания о классической китайской кухне.
 	                    </p> 
 	                     <ul class="icons d-flex">
@@ -492,40 +493,77 @@
 		</div>
 
 
-			<div class="row" id="saladiki">
+			<div class="row" id="desert">
 			
 				<div class="card mr-5 my-3 card text-white bg-secondary" style="width: 20rem;">
 
-					<img  class="card-img-top" src="" alt="Card image cap">
+					<img  class="card-img-top" src="https://iwokyou.ru/wp-content/uploads/2018/11/DSC6287-1-500x500.jpg" alt="Card image cap">
 
 					<div class="card-body">
-						<h5 class="card-title"></h5>
-						<h5 class="card-title">279₽</h5>
-						<p class="card-text"></p>
+						<h5 class="card-title">Маффин</h5>
+						<h5 class="card-title">59₽</h5>
+						<p class="card-text">Маффин изготовлен по фирменному рецепту на основе муки, шоколада, какао. Вес: 80г</p>
 					</div>
 			    </div>
 
 				<div class="card mr-5 my-3 card text-white bg-secondary" style="width: 20rem;">
 
-					<img  class="card-img-top" src="" alt="Card image cap">
+					<img  class="card-img-top" src="https://iwokyou.ru/wp-content/uploads/2019/12/A3131-1.jpg1231223123-1-500x500.jpg" alt="Card image cap">
 
 					<div class="card-body">
-						<h5 class="card-title"></h5>
-						<h5 class="card-title">249₽</h5>
-						<p class="card-text"></p>
+						<h5 class="card-title">Тайяки</h5>
+						<h5 class="card-title">119₽</h5>
+						<p class="card-text">Тайяки — японские вафли — с нутеллой, в одной порции — две рыбки. Вес: 100г</p>
 					</div>
 			    </div>
 
 			    <div class="card mr-5 my-3 card text-white bg-secondary" style="width: 20rem;">
 
-					<img  class="card-img-top" src="" alt="Card image cap">
+					<img  class="card-img-top" src="https://iwokyou.ru/wp-content/uploads/2022/05/vamavmav-500x500.jpg" alt="Card image cap">
 
 					<div class="card-body">
-						<h5 class="card-title"></h5>
-						<h5 class="card-title">249₽</h5>
-						<p class="card-text"></p>
+						<h5 class="card-title">Вафли мягкие</h5>
+						<h5 class="card-title">79₽</h5>
+						<p class="card-text">Вафли с вишневым вареньем, 210г.</p>
 					</div>
 			    </div>
+
+
+			<div class="row" id="holodnien">
+			
+				<div class="card mr-5 my-3 card text-white bg-secondary" style="width: 20rem;">
+
+					<img  class="card-img-top" src="http://www.immenso.org/wp-content/uploads/2012/12/cocktail-schifosi-fotoritocco-photoshop-10.jpg" alt="Card image cap">
+
+					<div class="card-body">
+						<h5 class="card-title">Фирменный напиток</h5>
+						<h5 class="card-title">999₽</h5>
+						<p class="card-text">Состав норм, честно</p>
+					</div>
+			    </div>
+
+				<div class="card mr-5 my-3 card text-white bg-secondary" style="width: 20rem;">
+
+					<img  class="card-img-top" src="https://iwokyou.ru/wp-content/uploads/2018/11/limonlajm-500x500.jpg" alt="Card image cap">
+
+					<div class="card-body">
+						<h5 class="card-title">Лимонад Лимон-Лайм</h5>
+						<h5 class="card-title">149₽</h5>
+						<p class="card-text">Лимонад по фирменному рецепту на основе лимона и лайма. Объем: 400 мл</p>
+					</div>
+			    </div>
+
+			    <div class="card mr-5 my-3 card text-white bg-secondary" style="width: 20rem;">
+
+					<img  class="card-img-top" src="https://iwokyou.ru/wp-content/uploads/2018/11/ezhevikamjata-500x500.jpg" alt="Card image cap">
+
+					<div class="card-body">
+						<h5 class="card-title">Лимонад Ежевика-Мята</h5>
+						<h5 class="card-title">149₽</h5>
+						<p class="card-text">Лимонад по фирменному рецепту на основе ежевики и мяты. Объем: 400 мл</p>
+					</div>
+			    </div>
+
 
 		</div>
 
